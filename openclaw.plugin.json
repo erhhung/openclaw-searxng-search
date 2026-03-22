@@ -1,0 +1,27 @@
+{
+  "id": "searxng-search",
+  "name": "SearXNG Search",
+  "version": "1.0.0",
+  "description": "Web search via SearXNG — free, private, unlimited. No API keys required.",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "baseUrl": {
+        "type": "string",
+        "description": "SearXNG instance URL (e.g., http://localhost:8888 or https://find.example.com)",
+        "default": "http://localhost:8888"
+      },
+      "defaultCount": {
+        "type": "number",
+        "description": "Default number of results to return",
+        "default": 5
+      },
+      "timeoutMs": {
+        "type": "number",
+        "description": "Request timeout in milliseconds",
+        "default": 10000
+      }
+    },
+    "additionalProperties": false
+  }
+}
