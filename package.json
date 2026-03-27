@@ -1,11 +1,14 @@
 {
-  "name": "openclaw-searxng-search",
+  "name": "@erhhung/searxng-search",
   "version": "1.0.0",
-  "description": "SearXNG web search plugin for OpenClaw — free, private, unlimited search",
+  "description": "SearXNG web search plugin for OpenClaw",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "openclaw": {
     "extensions": [
       "./dist/index.js"
