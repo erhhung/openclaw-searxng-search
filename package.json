@@ -1,6 +1,6 @@
 {
   "name": "@erhhung/searxng-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SearXNG web search plugin for OpenClaw",
   "license": "MIT",
   "main": "dist/index.js",

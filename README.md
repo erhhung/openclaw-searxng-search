@@ -8,7 +8,7 @@ No API keys. No rate limits. No tracking. Aggregates results from Google, Bing, 
 
 ```bash
 # Install the plugin
-openclaw plugins install @erhhung/searxng-search@1.0.0
+openclaw plugins install @erhhung/searxng-search@1.0.1
 
 # Or clone and install locally
 git clone https://github.com/erhhung/openclaw-searxng-search.git
