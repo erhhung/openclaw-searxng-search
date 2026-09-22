@@ -1,8 +1,13 @@
 {
   "id": "searxng-search",
   "name": "SearXNG Search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Web search via SearXNG — free, private, unlimited. No API keys required.",
+  "contracts": {
+    "tools": [
+      "searxng_search"
+    ]
+  },
   "configSchema": {
     "type": "object",
     "properties": {
